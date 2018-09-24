@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.xy2401.annotation.book</groupId>
+	<artifactId>spring-in-action-4th</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>spring-in-action-4th</name>
+	<description>spring-in-action-4th src in maven</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
+	</properties>
+
+	<modules>
+		<module>Chapter_01/knight</module>
+		<module>Chapter_02/stereo-autoconfig</module>
+		<module>Chapter_02/stereo-javaconfig</module>
+		<module>Chapter_02/stereo-mixedconfig</module>
+		<module>Chapter_02/stereo-xmlconfig</module>
+		<module>Chapter_03/conditional</module>
+		<module>Chapter_03/externals</module>
+		<module>Chapter_03/profiles</module>
+		<module>Chapter_03/scopedbeans</module>
+		<module>Chapter_05/Spittr</module>
+		<module>Chapter_06/jsp</module>
+		<module>Chapter_06/thymeleaf</module>
+		<module>Chapter_06/tiles</module>
+		<module>Chapter_07/Spittr</module>
+		<module>Chapter_08/SpringPizza</module>
+		<module>Chapter_09/thymeleaf</module>
+		<module>Chapter_10/jdbc</module>
+		<module>Chapter_11/hibernate4</module>
+		<module>Chapter_11/jpa-hibernate</module>
+		<module>Chapter_11/jpa-springdata</module>
+		<module>Chapter_12/mongo</module>
+		<module>Chapter_12/neo4j</module>
+		<module>Chapter_12/redis</module>
+		<module>Chapter_13/caching</module>
+		<module>Chapter_14/methodsecurity</module>
+		<module>Chapter_16/spitter-api-content-negotiation</module>
+		<module>Chapter_16/spitter-api-message-converters</module>
+		<module>Chapter_17/amqp</module>
+		<module>Chapter_17/jms</module>
+		<module>Chapter_18/STOMP</module>
+		<module>Chapter_18/STOMPUser</module>
+		<module>Chapter_19/mail</module>
+		<module>Chapter_21/contacts</module>
+		<module>Chapter_21/contacts_cli</module>
+		<module>Chapter_21/rest_hi</module>
+
+
+
+	</modules>
+
+
+</project>

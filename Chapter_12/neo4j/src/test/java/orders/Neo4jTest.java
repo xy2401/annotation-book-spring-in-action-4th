@@ -39,7 +39,8 @@ public class Neo4jTest {
 		assertEquals(1, orderRepository.count());
 		
 		// Finding an order by ID
-		Order foundOrder = orderRepository.findOne(savedOrder.getId());
+//		Order foundOrder = orderRepository.findOne(savedOrder.getId());
+		Order foundOrder = orderRepository.findById(savedOrder.getId()).get();
 		assertEquals("Chuck Wagon", foundOrder.getCustomer());
 		assertEquals(2, foundOrder.getItems().size());
 
@@ -72,7 +73,8 @@ public class Neo4jTest {
 		
 		
 		// Deleting an order
-		orderRepository.delete(savedOrder.getId());
+//		orderRepository.delete(savedOrder.getId());
+		orderRepository.delete(savedOrder);
 		assertEquals(0, orderRepository.count());		
 
 	}

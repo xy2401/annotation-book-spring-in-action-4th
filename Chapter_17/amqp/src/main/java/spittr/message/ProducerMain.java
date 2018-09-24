@@ -2,14 +2,14 @@ package spittr.message;
 
 import java.util.Date;
 
-import org.junit.Ignore;
+//import org.junit.Ignore;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import spittr.domain.Spittle;
 
-@Ignore
+//@Ignore
 public class ProducerMain {
 
   public static void main(String[] args) throws Exception {
